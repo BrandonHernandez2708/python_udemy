@@ -4,7 +4,8 @@ cantidad =3
  
  #Calculamos total 
 total= precio * cantidad
-
+saludo=str(input("ingrese su nombre"))
+print(f"hola {saludo}")
 print("el precio total es de "+str(total))
 
 #Asignamos nuevos valorea
