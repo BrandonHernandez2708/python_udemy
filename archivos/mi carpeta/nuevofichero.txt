@@ -1,0 +1,3 @@
+Este es un texto predeterminado de ejemplo para el archivo text.txt.
+Puedes modificar este contenido según tus necesidades.
+holaaaaaaaaa
