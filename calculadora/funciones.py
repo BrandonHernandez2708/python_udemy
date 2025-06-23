@@ -8,3 +8,4 @@ def division(n1,n2):
     if n2 == 0:
         return "Error: División por cero"
     return n1 / n2
+

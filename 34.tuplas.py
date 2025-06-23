@@ -5,7 +5,7 @@ print(colores[:2])
 tupla=()
 print(tupla)
 print(type(tupla))
-#print(colores[4]) cuidado con indices inexistentes
+print(colores[3]) #cuidado con indices inexistentes
 
 #colores[2]="rosa" cuidado con asignacion de valores
 print(len(colores))  #longitud de la tupla
