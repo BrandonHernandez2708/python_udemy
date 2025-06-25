@@ -1,3 +1,7 @@
+"""
+documentacion de mi clase 
+esto es mi documentacion
+"""
 class vehiculo:
     def __init__(self, color, velocidadMaxima, marca):
         self.color = color 
@@ -26,6 +30,9 @@ class vehiculo:
         print(f"soy de la marca {self.marca} con un color {self.color} y velocidad maxima de {self.velocidadMaxima}")
 
 class Moto(vehiculo):
+    """
+    documentacion del constuctor de la clase Moto
+    """
     def __init__(self, color, velocidadMaxima, marca, ruedas=4):
         vehiculo.__init__(self, color, velocidadMaxima, marca)
         self.ruedas = ruedas
