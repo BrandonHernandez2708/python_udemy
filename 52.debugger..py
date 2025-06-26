@@ -11,7 +11,7 @@ def dividir():
 def damepares():
     pares = []
     for i in range(1, 51):
-        if i % 3 == 0:
+         if i % 3 == 0:
             pares.append(i)
     return pares
 def main():
