@@ -1,0 +1,22 @@
+from tkinter import *
+def click():
+    texto= "hola " + entrada.get()
+    etiqueta.config(text=texto)
+ventana = Tk()
+ventana.title("Widgets basicos")
+ventana.resizable(True, True)
+ventana.config()
+frame = Frame()
+frame.pack()
+frame.config()
+frame.config(width="640", height="320")
+etiqueta = Label(frame, text="Etiqueta",font=("Arial",25))
+etiqueta.grid(column=1, row=2)
+entrada = Entry(frame, width=50)
+entrada.grid(column=2, row=2)
+etiqueta2 = Label(frame, text="Etiqueta2")
+etiqueta2.grid(column=3, row=1)
+boton = Button(frame, text="pulsname",bg="red",fg="yellow",command=click)
+boton.grid(column=1, row=4)
+
+ventana.mainloop()
